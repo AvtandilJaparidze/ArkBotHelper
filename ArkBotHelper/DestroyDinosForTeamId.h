@@ -39,7 +39,7 @@ std::string DestroyDinosForTeamIdInternal(FString* cmd)
 				num++;
 			}
 		}
-		std::string response = fmt::format("Destroyed {} dios belonging to team {}", num, teamId);
+		std::string response = fmt::format("Destroyed {} dinos belonging to team {}", num, teamId);
 
 		return response;
 	}
